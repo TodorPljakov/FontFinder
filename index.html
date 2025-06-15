@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html onmouseup="endis()">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="logo2.png">
+	<title>Font Size Picker</title>
+</head>
+<body>
+
+	<div id="site">
+
+	<textarea spellcheck="false" id="show">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+
+	<center>
+		
+		<h1 id="title_h">Font Size Picker</h1>
+		<p id="title_p">pick your perfect font size, no more guessing</p>
+		<hr id="title_hr">
+
+		<div id="picker">
+			
+			<button id="minus" class="pick" onmouseup="endis()" onmousedown="mini()" class="unselectable"></button>
+			<input type="text" name="tsize" onkeyup="losiz()" id="pxs" class="pick" placeholder="px">
+			<button id="plus" class="pick" onmouseup="endis()" onmousedown="plusi()" class="unselectable"></button>
+
+		</div>
+
+		<p id="explanation">The value above can be manipulated by the "-" and "+" keys and the arrow keys on your keyboard</p>
+
+		<!-- <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+
+		<!-- <input type="text" name="lorem" id="lorem"> -->
+		<textarea id="lorem" spellcheck="false"></textarea>
+
+		<div id="pxrem">
+			<h3 class="mtop">The text in the paragraph above has a font size of </h3>
+			<h3 id="px_stat" style="color: #75c26d;" class="mtop"><h3>
+			<h3 style="color: #75c26d;" class="mtop">px</h3>
+			<h3> or</h3>
+			<h3 id="rem_stat" style="color: #75c26d;" class="mtop"><h3>
+			<h3 style="color: #75c26d;" class="mtop">rem</h3>
+			<h3 style="color: #c95555;" class="mtop">(1rem = </h3>
+			<input type="text" name="rempx" id="rempx" class="mtop">
+			<h3 style="color: #c95555;" class="mtop">px)</h3>
+		</div>
+
+	</center>
+
+	</div>
+
+	<img src="logo2.png" id="t_log" class="unselectable" title="FS Picker">
+
+	<p id="about" class="unselectable">About Me</p>
+
+	<p id="about_p">
+		Hi :), my name is Тодор Пљаков. I'm a 17 year old porogrammer that has experience in: c++, c#, html, css, javascript and python.
+		<br class="unselectable">
+		<br class="unselectable">
+		<br class="unselectable">
+		<br class="unselectable">
+		You can reach me on: <b>toshe.pljakov@yahoo.com</b>
+	</p>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
