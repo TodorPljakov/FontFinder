@@ -50,7 +50,7 @@ body{
 	font-weight: 600;
 	font-family: arial;
 	opacity: 0.7;
-	transition: ;
+	/*transition: ;*/
 
 	transition: .4s ease-out;
 }
@@ -188,7 +188,7 @@ body{
 	outline: none;
 }
 
-#pxs: focus{
+#pxs:focus{
 	outline:none!important;
 }
 
@@ -208,7 +208,7 @@ body{
 	color: #c95555;
 }
 
-#rempx: focus{
+#rempx:focus{
 	outline:none!important;
 }
 
@@ -234,7 +234,7 @@ body{
 	border-radius: 16px;
 }
 
-#lorem: focus{
+#lorem:focus{
 	outline:none!important;
 }
 
