@@ -5,16 +5,16 @@
 </h1>
 
 <br>
-<p style="align:center">
+<div style="align:center">
     <a href="https://todorpljakov.github.io/FontFinder/">
         <img style="border-radius:25px;" src="./static/images/logo3.png">
     </a>
-</p>
+</div>
 
 <h1></h1>
 
-<p style="align:center">
+<div style="align:center">
     This is a repository for a 
     <a href="https://todorpljakov.github.io/FontFinder/">website</a> 
      I created to hone my web design skills
-</p>
+</div>
