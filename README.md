@@ -5,7 +5,7 @@
 </h1>
 
 <br>
-<p style="text-align:center">
+<p style="align:center">
     <a href="https://todorpljakov.github.io/FontFinder/">
         <img style="border-radius:25px;" src="./static/images/logo3.png">
     </a>
@@ -13,7 +13,7 @@
 
 <h1></h1>
 
-<p style="text-align:center">
+<p style="align:center">
     This is a repository for a 
     <a href="https://todorpljakov.github.io/FontFinder/">website</a> 
      I created to hone my web design skills
