@@ -131,7 +131,7 @@ body{
 	vertical-align: middle;
 	border: none;
 	background-color: #282923;
-	background-image: url(minus_2.png);
+	background-image: url(./static/images/minus_2.png);
 	box-shadow: 0 0 0 3px #c5c5bf;
 
 	transition: .2s ease;
@@ -156,7 +156,7 @@ body{
 	vertical-align: middle;
 	border: none;
 	background-color: #282923;
-	background-image: url(plus_2.png);
+	background-image: url(./static/images/plus_2.png);
 	box-shadow: 0 0 0 3px #c5c5bf;
 
 	transition: .2s ease;
@@ -253,12 +253,12 @@ body{
 	#minus{
 		height: 55px;
 		width: 55px;
-		background-image: url(minus_sml_2.png);
+		background-image: url(./static/images/minus_sml_2.png);
 	}
 	#plus{
 		height: 55px;
 		width: 55px;
-		background-image: url(plus_sml_2.png);
+		background-image: url(./static/images/plus_sml_2.png);
 	}
 	#t_log{
 	height: 50px;
