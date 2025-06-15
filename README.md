@@ -7,7 +7,7 @@
 <br>
 <div align=center>
     <a href="https://todorpljakov.github.io/FontFinder/">
-        <img style="border-radius:25px;" src="./static/images/logo3.png">
+        <img src="./static/images/logo4.png" alt="FontFinder logo">
     </a>
 </div>
 
